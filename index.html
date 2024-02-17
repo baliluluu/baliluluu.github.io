@@ -16,12 +16,12 @@
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="Simpler">
 	<meta name="twitter:description" content="Simpler – A modern portfolio theme for Jekyll.">
-	<meta name="twitter:image:src" content="images/01.jpg">
+	<meta name="twitter:image:src" content="https://simpler-jekyll.netlify.app/images/01.jpg">
 
 	<!-- Facebook OpenGraph -->
 	<meta property="og:title" content="Simpler">
 	<meta property="og:description" content="Simpler – A modern portfolio theme for Jekyll.">
-	<meta property="og:image" content="images/01.jpg">
+	<meta property="og:image" content="https://simpler-jekyll.netlify.app/images/01.jpg">
 
 	<!-- Fonts -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -34,8 +34,6 @@
 		href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap"
 		rel="stylesheet">
 
-	<link rel="stylesheet" href="css/index.css">
-
 	<script>
 
 		if (localStorage.getItem("theme") === "dark") {
@@ -44,6 +42,8 @@
 		}
 
 	</script>
+	<link rel="stylesheet" href="/css/index.css">
+
 </head>
 
 <body>
@@ -54,7 +54,7 @@
 	<!-- begin hero image -->
 	<div class="hero__image">
 		<div class="hero__image__inner">
-			<img class="" src="images/01.jpg" alt="Simpler">
+			<img class="lazy" data-src="/images/01.jpg" alt="Simpler">
 		</div>
 	</div>
 	<!-- end hero image -->
@@ -69,8 +69,8 @@
 					<div class="logo">
 						<a class="logo__link" href="/">
 
-							<img class="logo__image" src="images/logo.svg" alt="Simpler">
-							<img class="logo__image__dark" src="images/logo-dark.svg" alt="Simpler">
+							<img class="logo__image" src="/images/logo.svg" alt="Simpler">
+							<img class="logo__image__dark" src="/images/logo-dark.svg" alt="Simpler">
 
 						</a>
 					</div>
@@ -216,7 +216,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-1.jpg" alt="Wild Nature">
+												<img class="lazy" data-src="/images/project-1.jpg" alt="Wild Nature">
 											</div>
 										</div>
 
@@ -244,7 +244,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-2.jpg"
+												<img class="lazy" data-src="/images/project-2.jpg"
 													alt="Meditation Practices">
 											</div>
 										</div>
@@ -274,7 +274,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-3.jpg"
+												<img class="lazy" data-src="/images/project-3.jpg"
 													alt="Team Collaboration">
 											</div>
 										</div>
@@ -304,7 +304,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-4.jpg" alt="Woman Dancing">
+												<img class="lazy" data-src="/images/project-4.jpg" alt="Woman Dancing">
 											</div>
 										</div>
 
@@ -332,7 +332,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-5.jpg" alt="Autumn Season">
+												<img class="lazy" data-src="/images/project-5.jpg" alt="Autumn Season">
 											</div>
 										</div>
 
@@ -360,7 +360,7 @@
 
 										<div class="project__head">
 											<div class="project__image">
-												<img class="lazy" data-src="images/project-6.jpg"
+												<img class="lazy" data-src="/images/project-6.jpg"
 													alt="Hand Drawn People">
 											</div>
 										</div>
@@ -430,7 +430,7 @@
 
 											<a href="https://twitter.com/" target="_blank" rel="noopener"
 												class="image-container">
-												<img class="client-avatar" src="images/client-1.jpg" alt="Carla Kenter"
+												<img class="client-avatar" src="/images/client-1.jpg" alt="Carla Kenter"
 													loading="lazy">
 											</a>
 
@@ -467,7 +467,7 @@
 
 											<a href="https://facebook.com/" target="_blank" rel="noopener"
 												class="image-container">
-												<img class="client-avatar" src="images/client-2.jpg"
+												<img class="client-avatar" src="/images/client-2.jpg"
 													alt="Kierra Botosh" loading="lazy">
 											</a>
 
@@ -504,7 +504,7 @@
 
 											<a href="https://twitter.com/" target="_blank" rel="noopener"
 												class="image-container">
-												<img class="client-avatar" src="images/client-3.jpg"
+												<img class="client-avatar" src="/images/client-3.jpg"
 													alt="Randy Herwitz" loading="lazy">
 											</a>
 
@@ -541,7 +541,7 @@
 
 											<a href="https://twitter.com/" target="_blank" rel="noopener"
 												class="image-container">
-												<img class="client-avatar" src="images/client-4.jpg" alt="Hanna Franci"
+												<img class="client-avatar" src="/images/client-4.jpg" alt="Hanna Franci"
 													loading="lazy">
 											</a>
 
@@ -608,7 +608,7 @@
 
 
 									<a class="article__image" href="/blog/10-things-you-can-do-for-your-mental-health">
-										<img class="lazy" data-src="images/02.jpg"
+										<img class="lazy" data-src="/images/02.jpg"
 											alt="10 Things You Can Do for Your Mental Health">
 									</a>
 
@@ -648,7 +648,7 @@
 
 									<a class="article__image"
 										href="/blog/digital-minimalism-and-the-radical-power-of-unplugging">
-										<img class="lazy" data-src="images/03.jpg"
+										<img class="lazy" data-src="/images/03.jpg"
 											alt="Digital Minimalism and the Radical Power of Unplugging">
 									</a>
 
@@ -687,7 +687,7 @@
 
 
 									<a class="article__image" href="/blog/choosing-a-focused-life-in-a-noisy-world">
-										<img class="lazy" data-src="images/04.jpg"
+										<img class="lazy" data-src="/images/04.jpg"
 											alt="Choosing a Focused Life in a Noisy World">
 									</a>
 
@@ -728,7 +728,7 @@
 
 
 									<a class="article__image" href="/blog/15-great-books-to-suit-any-mood-or-interest">
-										<img class="lazy" data-src="images/05.jpg"
+										<img class="lazy" data-src="/images/05.jpg"
 											alt="15 Great Books to Suit Any Mood or Interest">
 									</a>
 
@@ -768,7 +768,7 @@
 
 									<a class="article__image"
 										href="/blog/best-places-to-invest-in-vacation-rental-property">
-										<img class="lazy" data-src="images/06.jpg"
+										<img class="lazy" data-src="/images/06.jpg"
 											alt="Best Places to Invest in Vacation Rental Property">
 									</a>
 
@@ -812,7 +812,7 @@
 
 									<a class="article__image"
 										href="/blog/the-proven-health-benefits-of-yoga-and-meditation">
-										<img class="lazy" data-src="images/07.jpg"
+										<img class="lazy" data-src="/images/07.jpg"
 											alt="The Proven Health Benefits of Yoga and Meditation">
 									</a>
 
@@ -904,7 +904,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=fashion" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/14.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/14.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">fashion</span>
@@ -918,7 +918,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=lifestyle" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/02.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/02.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">lifestyle</span>
@@ -932,7 +932,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=people" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/03.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/03.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">people</span>
@@ -946,7 +946,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=productivity" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/07.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/07.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">productivity</span>
@@ -960,7 +960,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=reading" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/05.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/05.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">reading</span>
@@ -974,7 +974,7 @@
 								<div class="col col-2 col-w-3 col-d-4 col-t-6 col-m-12">
 									<a href="/tags/?tag=rest" class="tag-container">
 										<div class="tag-image">
-											<img class="lazy" data-src="images/15.jpg" alt="post.title">
+											<img class="lazy" data-src="/images/15.jpg" alt="post.title">
 										</div>
 										<div class="tag-meta">
 											<span class="tag-name">rest</span>
@@ -1024,7 +1024,7 @@
 			</div>
 		</div>
 
-		<div class="subscribe__bg lazy" data-bg="images/subscribe-bg.jpg"></div>
+		<div class="subscribe__bg lazy" data-bg="/images/subscribe-bg.jpg"></div>
 
 	</div>
 	<!-- end subscribe -->
@@ -1045,8 +1045,8 @@
 									<div class="logo-footer">
 										<a class="logo-footer__link" href="/">
 
-											<img class="logo-footer__image" src="images/logo.svg" alt="Simpler">
-											<img class="logo-footer__image__dark" src="images/logo-dark.svg"
+											<img class="logo-footer__image" src="/images/logo.svg" alt="Simpler">
+											<img class="logo-footer__image__dark" src="/images/logo-dark.svg"
 												alt="Simpler">
 
 										</a>
@@ -1093,7 +1093,7 @@
 
 										<a href="/blog/10-things-you-can-do-for-your-mental-health"
 											class="recent-posts__image">
-											<img class="lazy" data-src="images/02.jpg"
+											<img class="lazy" data-src="/images/02.jpg"
 												alt="10 Things You Can Do for Your Mental Health">
 										</a>
 
@@ -1112,7 +1112,7 @@
 
 										<a href="/blog/digital-minimalism-and-the-radical-power-of-unplugging"
 											class="recent-posts__image">
-											<img class="lazy" data-src="images/03.jpg"
+											<img class="lazy" data-src="/images/03.jpg"
 												alt="Digital Minimalism and the Radical Power of Unplugging">
 										</a>
 
@@ -1131,7 +1131,7 @@
 
 										<a href="/blog/choosing-a-focused-life-in-a-noisy-world"
 											class="recent-posts__image">
-											<img class="lazy" data-src="images/04.jpg"
+											<img class="lazy" data-src="/images/04.jpg"
 												alt="Choosing a Focused Life in a Noisy World">
 										</a>
 
@@ -1206,8 +1206,8 @@
 	</footer>
 	<!-- end footer -->
 
-	<script src="js/scripts.js"></script>
-	<script src="js/common.js"></script>
+	<script src="/js/scripts.js"></script>
+	<script src="/js/common.js"></script>
 </body>
 
 </html>
